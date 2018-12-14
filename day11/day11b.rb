@@ -17,9 +17,6 @@ grid = Hash.new(0)
   end
 end
 
-
-
-
 def max_submatrix(grid, size)
   strip_sum = Hash.new(0)
 
