@@ -67,22 +67,3 @@ max_max = [(300**2)*(-9), nil]
 end
 
 puts max_max.inspect
-
-# def square(grid, x, y)
-#   (0..2).inject(0) do |s, i|
-#     s + (0..2).inject(0) do |ss, j|
-#       ss + grid[[x+i,y+j]]
-#     end
-#   end
-# end
-
-# max = [0, nil, nil]
-
-# 1.upto(298) do |y|
-#   1.upto(298) do |x|
-#     val = square(grid, x, y)
-#     max = [val, x, y] if val > max.first
-#   end
-# end
-
-# puts max.inspect
